@@ -1,0 +1,23 @@
+{
+  "name": "openvpn3-client-wrapper",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/client.js",
+  "scripts": {
+    "test": "",
+    "build": "esbuild client.js --bundle --outfile=dist/client.js --minify --platform=node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-sureshraj/openvpn3-client-wrapper.git"
+  },
+  "author": "m.s.suresh100@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-sureshraj/openvpn3-client-wrapper/issues"
+  },
+  "homepage": "https://github.com/m-sureshraj/openvpn3-client-wrapper#readme",
+  "devDependencies": {
+    "esbuild": "^0.12.1"
+  }
+}
