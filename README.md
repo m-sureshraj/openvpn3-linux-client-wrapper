@@ -3,6 +3,8 @@ A tiny wrapper for the official openvpn3 Linux client. It provides a few
 user-friendly commands to start a session, stop a session, and get status
 of an active session.
 
+![jest style autocomplete prompt in action](./media/script_in_action.gif)
+
 ## Prerequisites
 * Make sure you have [openvpn3 Linux client](https://github.com/OpenVPN/openvpn3-linux) installed.
 * Make sure you have `Node.js` installed.
