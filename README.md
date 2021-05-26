@@ -21,9 +21,9 @@ of an active session.
    
    `VPN_PROFILE_PATH` - Absolute path to the openvpn connection profile file.
    
-    `alias vpn` - Entry point to the script. By default, the alias name is `vpn` 
-    but you can name it whatever you want. The value should be absolute path to the
-    downloaded `client.js`. (step 2)
+   `alias vpn` - The entry point to the script. By default, the alias name is `vpn` 
+   but, you can name it whatever you want. The value should be an absolute path 
+   to the downloaded `client.js`. **(step 2)**
 
 4. Source the modified shell profile. e.g. `source .zshrc`
 
@@ -35,10 +35,10 @@ for credentials.
 alias vpn='/path/to/downloaded/client.js username=foo password="abc123"'
 ```
 
-Note - If the username or password contains special characters, then you 
+**Note** - If the username or password contains special characters, then you 
 should escape it to prevent parameter expansion. e.g.
 
-`password=foo$dbar` => `password=foo\$dbar`
+`password=foo$d` => `password=foo\$d`
 
 ## Usage
 ```
